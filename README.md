@@ -80,17 +80,21 @@ I)For the react-native-reanimated, it is required to add plugins: ['react-native
 II)For the react-native-gesture-handler, it is required to add the following import statement at the top of index.js.
 
 		Example:	import 'react-native-gesture-handler';
+		
 5. run "npm install react-native-vector-icons --save"
 
 I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the following apply from: "../../node_modules/react-native-vector-	icons/fonts.gradle" on top:
+		
 		Example:	apply plugin: "com.android.application"
-			apply plugin: "org.jetbrains.kotlin.android"
-			apply plugin: "com.facebook.react"
-			apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+					apply plugin: "org.jetbrains.kotlin.android"
+					apply plugin: "com.facebook.react"
+					apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 6. run "npm i @react-native-picker/picker --save" or "npm i @react-native-picker/picker --force"
+	
 	If there is any error in installation, run these in terminal, i.e.,:
-											npm ERR! code ERESOLVE
+
+   											npm ERR! code ERESOLVE
 											npm ERR! ERESOLVE unable to resolve dependency tree
 											npm ERR!
 
