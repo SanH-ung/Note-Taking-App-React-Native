@@ -18,6 +18,7 @@
 A full-stack mobile application developed with **React Native** that allows users to manage personal notes with local persistence and a backend synchronization feature.
 
 ====================Features====================
+
 *   **Persistent Storage**: Uses `AsyncStorage` to save notes locally on the device.
 *   **Advanced Navigation**: Implements a multi-layered navigation system including **Drawer**, **Tab**, and **Stack** navigators.
 *   **Cloud Synchronization**: Integrated with a Node.js backend using **Axios** to sync notes to a centralized database.
@@ -25,11 +26,13 @@ A full-stack mobile application developed with **React Native** that allows user
 *   **Favorites & Filters**: A dedicated screen to view and filter important notes.
 
 ====================Tech Stack====================
+
 *   **Frontend**: React Native, React Navigation, Axios.
 *   **Backend**: Node.js, Express.js, Socket.IO.
 *   **Database**: SQLite (`notes_server.sqlite`) for cloud-side storage.
 
 ====================Setup for React Native:====================
+
 Setup and tutorial video (for Windows): [React Native Tutorial for Beginners](https://www.youtube.com/watch?v=8ejuHsaXiwU&t=602s) by **Programming with Mosh**
 1.Java Development Kit (JDK): https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe
 2.Android Studio: Download Android Studio & App Tools - Android Developers 
@@ -44,6 +47,7 @@ Please make sure to setup environment manually Java Development Kit (JDK), Andro
 Run "npx @react-native-community/cli init MyApp --version="0.73"" with Command Prompt or terminal inside Visual Studio Code
 
 ====================Plugins, Addons and Dependencies:====================
+
 In Command Prompt or terminal inside Visual Studio Code,
 
 1. run "npm install @react-navigation/native@6.1.9" with Command Prompt or terminal inside Visual Studio Code
