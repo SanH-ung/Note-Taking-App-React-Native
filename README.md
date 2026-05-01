@@ -36,9 +36,13 @@ A full-stack mobile application developed with **React Native** that allows user
 Setup and tutorial video (for Windows): [React Native Tutorial for Beginners](https://www.youtube.com/watch?v=8ejuHsaXiwU&t=602s) by **Programming with Mosh**
 
 1.Java Development Kit (JDK): https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe
+
 2.Android Studio: Download Android Studio & App Tools - Android Developers 
+
 3.Node.JS: https://nodejs.org/dist/v18.20.8/node-v18.20.8-x64.msi
+
 4.Visual Studio Code: https://code.visualstudio.com/download
+
 5.Python (version 3.11.3) : https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe
 
 Please ensure Android SDK, Android SDK Platform and Android Emulator is installed with SDK mananger in Android SDK
