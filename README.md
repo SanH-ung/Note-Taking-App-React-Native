@@ -13,12 +13,6 @@
 *   **Usage**: This tutorial was used as a reference for establishing the initial project architecture and understanding core React Native components.
 *   **Academic Context**: Developed for the Mobile Application Development Assignment (2026).
 
-====================Final Checklist before Submitting:====================
-
-1.  **Edit on GitHub**: Go to your repository, click **Add file** > **Create new file**, name it `README.md`, and paste the content above.
-2.  **Check Links**: Ensure your GitHub link in your report matches: `https://github.com/SanH-ung/Note-Taking-App-React-Native.git`.
-3.  **Verify Files**: Ensure `server.js` and `notes_server.sqlite` are visible in the file list on GitHubHere is a comprehensive, professional **README.md** specifically tailored for your assignment. It combines your installation steps with the technical details and credits we discussed.
-
 ====================Note-Taking App with Real-Time Cloud Sync====================
 
 A full-stack mobile application developed with **React Native** that allows users to manage personal notes with local persistence and a backend synchronization feature.
