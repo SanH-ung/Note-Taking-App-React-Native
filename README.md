@@ -59,7 +59,7 @@ The following command must run in Command Prompt or terminal inside Visual Studi
 
 2. Run "npm install react-native-screens@3.29 react-native-safe-area-context@4.8" with Command Prompt or terminal inside Visual Studio Code
 
-	I)After installing react-native-screens, add import android.os.Bundle; at the top of MainActivity.kt that is located under 	android/app/src/main/java/<your package name>/
+	i)After installing react-native-screens, add import android.os.Bundle; at the top of MainActivity.kt that is located under 	android/app/src/main/java/<your package name>/
 	
 		Example:	import android.os.Bundle;  
 					import com.facebook.react.ReactActivity;
@@ -71,25 +71,25 @@ The following command must run in Command Prompt or terminal inside Visual Studi
 
 4. Run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
 
-I)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
+	i)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
 	
-	Example:	module.exports = {
-  				plugins: ['react-native-reanimated/plugin'],
-  				// other settings
-				}
+		Example:	module.exports = {
+	  				plugins: ['react-native-reanimated/plugin'],
+	  				// other settings
+					}
 
-II)For the react-native-gesture-handler, it is required to add the following import statement at the top of index.js.
+	ii)For the react-native-gesture-handler, it is required to add the following import statement at the top of index.js.
 
-	Example:	import 'react-native-gesture-handler';
+		Example:	import 'react-native-gesture-handler';
 		
 5. Run "npm install react-native-vector-icons --save"
 
-I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the following apply from: "../../node_modules/react-native-vector-	icons/fonts.gradle" on top:
+	i)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the following apply from: "../../node_modules/react-native-vector-	icons/fonts.gradle" on top:
 		
-	Example:	apply plugin: "com.android.application"
-				apply plugin: "org.jetbrains.kotlin.android"
-				apply plugin: "com.facebook.react"
-				apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+		Example:	apply plugin: "com.android.application"
+					apply plugin: "org.jetbrains.kotlin.android"
+					apply plugin: "com.facebook.react"
+					apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 6. Run "npm i @react-native-picker/picker --save" or "npm i @react-native-picker/picker --force"
 	
