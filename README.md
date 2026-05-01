@@ -61,11 +61,11 @@ The following command must run in Command Prompt or terminal inside Visual Studi
 
 	I)After installing react-native-screens, add import android.os.Bundle; at the top of MainActivity.kt that is located under 	android/app/src/main/java/<your package name>/
 	
-		Example:import android.os.Bundle;  
-				import com.facebook.react.ReactActivity;
-				import com.facebook.react.ReactActivityDelegate;
-				import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
-				import com.facebook.react.defaults.DefaultReactActivityDelegate;
+		Example:	import android.os.Bundle;  
+					import com.facebook.react.ReactActivity;
+					import com.facebook.react.ReactActivityDelegate;
+					import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
+					import com.facebook.react.defaults.DefaultReactActivityDelegate;
 
 3. Run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
 
