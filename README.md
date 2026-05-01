@@ -53,11 +53,11 @@ Run "npx @react-native-community/cli init MyApp --version="0.73"" with Command P
 
 ====================Plugins, Addons and Dependencies:====================
 
-In Command Prompt or terminal inside Visual Studio Code,
+The following command must run in Command Prompt or terminal inside Visual Studio Code,
 
-1. run "npm install @react-navigation/native@6.1.9" with Command Prompt or terminal inside Visual Studio Code
+1. Run "npm install @react-navigation/native@6.1.9" with Command Prompt or terminal inside Visual Studio Code
 
-2. run "npm install react-native-screens@3.29 react-native-safe-area-context@4.8" with Command Prompt or terminal inside Visual Studio Code
+2. Run "npm install react-native-screens@3.29 react-native-safe-area-context@4.8" with Command Prompt or terminal inside Visual Studio Code
 
 	I)After installing react-native-screens, add import android.os.Bundle; at the top of MainActivity.kt that is located under 	android/app/src/main/java/<your package name>/
 	
@@ -67,9 +67,9 @@ In Command Prompt or terminal inside Visual Studio Code,
 				import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
 				import com.facebook.react.defaults.DefaultReactActivityDelegate;
 
-3.run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
+3.Run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
 
-4.run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
+4.Run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
 
 I)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
 	
