@@ -61,11 +61,11 @@ In Command Prompt or terminal inside Visual Studio Code,
 
 	I)After installing react-native-screens, add import android.os.Bundle; at the top of MainActivity.kt that is located under 	android/app/src/main/java/<your package name>/
 	
-	Example:	import android.os.Bundle;  
-			import com.facebook.react.ReactActivity;
-			import com.facebook.react.ReactActivityDelegate;
-			import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
-			import com.facebook.react.defaults.DefaultReactActivityDelegate;
+		Example:import android.os.Bundle;  
+				import com.facebook.react.ReactActivity;
+				import com.facebook.react.ReactActivityDelegate;
+				import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
+				import com.facebook.react.defaults.DefaultReactActivityDelegate;
 
 3.run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
 
@@ -73,30 +73,30 @@ In Command Prompt or terminal inside Visual Studio Code,
 I)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
 	
 	Example:	module.exports = {
-  			plugins: ['react-native-reanimated/plugin'],
-  			// other settings
-			}
+  				plugins: ['react-native-reanimated/plugin'],
+  				// other settings
+				}
 
 II)For the react-native-gesture-handler, it is required to add the following import statement at the top of index.js.
 
-		Example:	import 'react-native-gesture-handler';
+	Example:	import 'react-native-gesture-handler';
 		
 5. run "npm install react-native-vector-icons --save"
 
 I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the following apply from: "../../node_modules/react-native-vector-	icons/fonts.gradle" on top:
 		
-		Example:	apply plugin: "com.android.application"
-					apply plugin: "org.jetbrains.kotlin.android"
-					apply plugin: "com.facebook.react"
-					apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+	Example:	apply plugin: "com.android.application"
+				apply plugin: "org.jetbrains.kotlin.android"
+				apply plugin: "com.facebook.react"
+				apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 6. run "npm i @react-native-picker/picker --save" or "npm i @react-native-picker/picker --force"
 	
 	If there is any error in installation, run these in terminal, i.e.,:
 
-   											npm ERR! code ERESOLVE
-											npm ERR! ERESOLVE unable to resolve dependency tree
-											npm ERR!
+		npm ERR! code ERESOLVE
+		npm ERR! ERESOLVE unable to resolve dependency tree
+		npm ERR!
 
 8. run "npm i @react-native-community/slider@4.4.2 --force"
 
