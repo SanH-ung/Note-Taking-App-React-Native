@@ -34,6 +34,7 @@ A full-stack mobile application developed with **React Native** that allows user
 ====================Setup for React Native:====================
 
 Setup and tutorial video (for Windows): [React Native Tutorial for Beginners](https://www.youtube.com/watch?v=8ejuHsaXiwU&t=602s) by **Programming with Mosh**
+
 1.Java Development Kit (JDK): https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe
 2.Android Studio: Download Android Studio & App Tools - Android Developers 
 3.Node.JS: https://nodejs.org/dist/v18.20.8/node-v18.20.8-x64.msi
