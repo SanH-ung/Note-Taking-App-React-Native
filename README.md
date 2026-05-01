@@ -70,6 +70,7 @@ In Command Prompt or terminal inside Visual Studio Code,
 3.run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
 
 4.run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
+
 I)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
 	
 	Example:	module.exports = {
