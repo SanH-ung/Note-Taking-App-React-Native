@@ -67,9 +67,9 @@ The following command must run in Command Prompt or terminal inside Visual Studi
 				import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled;
 				import com.facebook.react.defaults.DefaultReactActivityDelegate;
 
-3.Run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
+3. Run "npm install @react-navigation/stack@6.0 npm install @react-navigation/drawer@6.6 @react-navigation/bottom-tabs@6.6"
 
-4.Run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
+4. Run "npm install react-native-gesture-handler@2.14 react-native-reanimated@3.6 @react-native-masked-view/masked-view@0.3"
 
 I)For the react-native-reanimated, it is required to add plugins: ['react-native-reanimated/plugin'] in the babel.config.js. Don't remove the existing 	settings in the babel.config.js.
 	
@@ -82,7 +82,7 @@ II)For the react-native-gesture-handler, it is required to add the following imp
 
 	Example:	import 'react-native-gesture-handler';
 		
-5. run "npm install react-native-vector-icons --save"
+5. Run "npm install react-native-vector-icons --save"
 
 I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the following apply from: "../../node_modules/react-native-vector-	icons/fonts.gradle" on top:
 		
@@ -91,7 +91,7 @@ I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the f
 				apply plugin: "com.facebook.react"
 				apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
-6. run "npm i @react-native-picker/picker --save" or "npm i @react-native-picker/picker --force"
+6. Run "npm i @react-native-picker/picker --save" or "npm i @react-native-picker/picker --force"
 	
 	If there is any error in installation, run these in terminal, i.e.,:
 
@@ -99,14 +99,14 @@ I)Then, edit android/app/build.gradle ( NOT android/build.gradle ) and add the f
 		npm ERR! ERESOLVE unable to resolve dependency tree
 		npm ERR!
 
-8. run "npm i @react-native-community/slider@4.4.2 --force"
+8. Run "npm i @react-native-community/slider@4.4.2 --force"
 
-9. run "npm i react-native-pager-view@6.1.2"
+9. Run "npm i react-native-pager-view@6.1.2"
 
-10. run "npm install --save react-native-sqlite-storage"
+10. Run "npm install --save react-native-sqlite-storage"
 
-11. run "npm install --save react-native-floating-action"
+11. Run "npm install --save react-native-floating-action"
 
-12. run "npm install @react-native-async-storage/async-storage@1.19.0 --force"
+12. Run "npm install @react-native-async-storage/async-storage@1.19.0 --force"
 
 13. run "npm install axios"
